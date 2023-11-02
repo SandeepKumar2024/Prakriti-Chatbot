@@ -1,0 +1,101 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Chathura:wght@300;400;700;800&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chathura', sans-serif;
+ }
+.container{
+    width:100%;
+    // background:purple;
+    display: flex;
+    height:100vh;
+
+    .left{
+        flex:1;
+        background:#27528a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right{
+        flex:1;
+        background: white
+        ;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+
+        .tRight{
+            flex:0.8;
+            display: flex;
+            background-color: rgb(253, 253, 253);
+            font-size:20px;
+            border-radius: 20px;
+            .logo{
+                display: flex;
+                width: 100%;
+                display:flex;
+                align-items: center;
+                gap:50px;
+                margin-left:50px;
+
+
+                svg{
+                    width:50px;
+                    height:50px;
+                    border:1px solid grey;
+                    border-radius:50%;
+                    
+                }
+                p{
+                    font-size:30px;
+                    font-weight:bold;
+                }
+            }
+        }
+        .mRight{
+            flex:6;
+        }
+
+        .bRight{
+            flex:1;
+            width:100%;
+            .form{
+                width:100%;
+                display:flex;
+                form{
+                    width:100%;
+                    margin: 0px 20px;
+                    
+                    
+                    input{
+                        width:90%;
+                        padding: 15px;
+                        font-size: 40px;
+                        
+
+    
+                    }
+                    button{
+                        width: 10%;
+                        padding:15px;
+                        font-size: 40px;
+                    }
+
+                }
+              
+
+
+
+            }
+
+
+        }
+
+    }
+}
