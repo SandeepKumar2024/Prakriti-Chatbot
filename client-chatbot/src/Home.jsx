@@ -70,8 +70,8 @@ function Home() {
         </p>
 
         <div className="buttons">
-        <button>Start</button>
-       <Link to="/about"> <button>Explore </button></Link>
+        <Link to="/start"><button>Start</button></Link>
+       <Link to="/about"><button>Explore </button></Link>
         </div>
 
   </div>
