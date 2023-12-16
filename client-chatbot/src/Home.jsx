@@ -43,6 +43,12 @@ function Home() {
     }, 200); 
     return () => clearInterval(intervalId);
   }, []);
+
+  //function to call chatbot
+  function callChatbot() {
+      // Redirect users to the chatbot link
+      window.location.href = 'https://mediafiles.botpress.cloud/3c91f2d3-f96d-42d1-a278-ed361cb4ba32/webchat/bot.html';
+  }
   return (
    <>
    <div className="container">
@@ -70,8 +76,8 @@ function Home() {
         </p>
 
         <div className="buttons">
-        <Link to="/start"><button>Start</button></Link>
-       <Link to="/about"><button>Explore </button></Link>
+        <button onClick={callChatbot}>Start</button>
+        <Link to="/about"><button>Explore </button></Link>
         </div>
 
   </div>
