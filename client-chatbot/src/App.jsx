@@ -4,6 +4,7 @@ import back from "./img/new.jpg"
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from './Home';
 import About from './About';
+import Start from './Start';
 const router =  createBrowserRouter([
   {
     path:"/",
