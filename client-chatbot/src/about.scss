@@ -1,16 +1,19 @@
 .contents{
 
-    height: 90vh;
+    height: 100vh;
     width:100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 50px;
+    overflow: scroll;
+    
+   
     .content{
         display: flex;
         gap: 20px;
         flex-direction: column;
-        height: 800px;
+        min-height: 100%;
 
         h1{
             color: gray;
@@ -24,6 +27,19 @@
             width: 100%;
             height: 50%;
             object-fit: cover;
+            object-fit: cover;
+        }
+        .imgs{
+            height: 100px;
+            width: 90vw;
+            object-fit: cover;
+            display: flex;
+            
+
+            img{
+                flex: 1;
+                height: 400px;
+            }
         }
     }
 

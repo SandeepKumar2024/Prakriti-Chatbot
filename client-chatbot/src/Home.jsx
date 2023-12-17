@@ -47,7 +47,7 @@ function Home() {
   //function to call chatbot
   function callChatbot() {
       // Redirect users to the chatbot link
-      window.location.href = 'https://mediafiles.botpress.cloud/3c91f2d3-f96d-42d1-a278-ed361cb4ba32/webchat/bot.html';
+      window.location.href = 'https://mediafiles.botpress.cloud/991f23f7-fc0a-446c-961a-a9b22b1a8546/webchat/bot.html';
   }
   return (
    <>
