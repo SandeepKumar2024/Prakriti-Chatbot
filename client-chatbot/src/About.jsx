@@ -23,9 +23,9 @@ const About=()=>{
             <div className="content">
             <h1>Skin Analysis</h1>
             <p>Skin detection is considered as a challenging problem in image processing because there
-exists disparate variations in the images like the lighting conditions, presence of skin colour-like
-background, variations in skin colour of people belonging to different ethnicities and variations
-due to makeup</p>
+    exists disparate variations in the images like the lighting conditions, presence of skin colour-like
+    background, variations in skin colour of people belonging to different ethnicities and variations
+    due to makeup</p>
                 <span>Following are the prominent characteristics of skin according to different
 Prakrutis</span>
                 <ul>
@@ -73,6 +73,98 @@ characteristics like the iris, pupil, eyelids along with its geometric shape [36
 colour after localizing eyes in an image will also help in the problem of Prakruti determination</span>
         <img src="https://photos1.blogger.com/x/blogger/3764/3792/1600/22626/diagnostico2.jpg" alt="" />
             </div>
+            <div className="content">
+
+            <h1>Some do's for Vatta </h1>
+            <ul>
+               <li>Keep warm in cool weather.</li>
+               <li>Establish a daily routine.</li>
+               <li>
+               Opt for warm, nourishing foods.
+               </li>
+               <li>Stay hydrated with warm liquids.</li>
+               <li>Engage in gentle, grounding exercises.</li>
+               <li>Ensure adequate rest and sleep.</li>
+            </ul>
+            <h1>Some dont's for Vatta </h1>
+            <ul>
+               <li>Minimize cold and raw foods.</li>
+               <li>Limit caffeine and stimulants.</li>
+               <li>
+               Avoid erratic schedules.
+               </li>
+               <li>Steer clear of overexertion.</li>
+               <li>Maintain regular meal times.</li>
+               <li>Minimize excessive travel, especially in cold conditions.
+</li>
+            </ul>
+            <img src="https://images.ctfassets.net/p0sybd6jir6r/5Z1cHVM9SLGycNIRTdyH8a/efdaae4a0bff44a88a5d5c0799e52860/foodstoavoid-40b725c4ecffe746cd9194af8977cd06.png" alt="" />
+
+<div className="content">
+<h1>Some do's for Pitta </h1>
+<div className="do_dont">
+
+<ul>
+               <li>Stay cool in warm weather.</li>
+               <li>Follow a balanced routine.</li>
+               <li>
+               Favor cooling, hydrating foods.
+               </li>
+               <li>Stay hydrated with cool beverages.</li>
+               <li>Engage in moderate, cooling exercises.</li>
+               <li>Ensure sufficient but not excessive rest.</li>
+            </ul>
+            <h1>Some dont's for Pitta </h1>
+            <ul>
+               <li>Minimize spicy and hot foods.</li>
+               <li>Limit caffeine and acidic foods.</li>
+               <li>
+               Avoid excessive heat and sun exposure.
+               </li>
+               <li>Steer clear of intense, competitive activities.</li>
+               <li>Maintain regular meal times.</li>
+               <li>Minimize excessive stress and workload.
+</li>
+            </ul>
+
+</div>
+            <img src="https://images.ctfassets.net/p0sybd6jir6r/4I4UJ22Ws86CiCvnv6MJqO/39e8f682f58ba9e9752018644d762c52/Pitta_Diet_Infographic-c69da92bf8d107e140de5760c6c7312c.jpg" alt="" />
+
+</div>
+<div className="content">
+<div className="do_dont">
+<h1>Some do's for Kapha  </h1>
+
+<ul>
+               <li>Stay warm in cool, damp weather.</li>
+               <li>Establish a dynamic daily routine.</li>
+               <li>
+               Opt for light, warming foods.
+               </li>
+               <li>Stay hydrated with cool beverages.</li>
+               <li>Engage in invigorating, stimulating exercises.</li>
+               <li>Ensure regular exercise and movement.</li>
+            </ul>
+            <h1>Some dont's for Kapha </h1>
+            <ul>
+               <li>Minimize heavy, oily, and cold foods.</li>
+               <li>Limit dairy and sweet foods.</li>
+               <li>
+               Avoid sedentary lifestyle.
+               </li>
+               <li>Steer clear of excess sleep.</li>
+               <li>Minimize salt intake.</li>
+               <li>Be cautious of excessive damp or cold environments.
+</li>
+            </ul>
+
+</div>
+           <img src="https://www.hithayush.com/wp-content/uploads/2022/02/PittaDietBoard_edit.jpg" alt="" />
+</div>
+            
+            </div>
+            
+
         </div>
         
         
